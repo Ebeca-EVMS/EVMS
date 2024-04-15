@@ -203,12 +203,17 @@
 }
 
 .card{
-    display: flex;
+    display: grid;
     flex-direction: column;
     padding: 10px 20px;
     border-radius: 10px;
     font-size: 30px;
     font-weight: 30px;
+}
+
+.value{
+    font-size: 30px;
+    font-weight: 20px;
 }
 
 .card:first-child{
